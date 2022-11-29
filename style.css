@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.navbar{
+    width: 100%;
+    background-color: #4472C4;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 3rem;
+    font-weight: 100;
+}
+.rightmain .title{
+    background-color: #4472C4;
+    border-right: 1px solid white;
+    font-size: 1.5rem;
+}
+.main{
+    display: flex;
+    align-items: center; 
+}
+.leftmain{
+    margin-left: 4rem;
+    height: 100vh;
+    width: 20rem;
+    border-right: 5px solid rgb(31, 31, 31);
+}
+.btn{
+    background-color: #4472C4;
+    padding: 1rem;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+}
+.leftmain .btn{
+    width: 15rem;
+    margin-top: 8rem;
+}
+.leftmain ul{
+    width: 15rem;
+    margin-top: 1rem;
+    height: 10rem;
+}
+.leftmain ul li{
+    border: 1px solid #4472C4;
+    font-size: 1.5rem;
+    padding: 1rem;
+    list-style: none;
+}
+.leftmain ul .active{
+    background-color: #4472C4;
+}
+.city-details{
+    display: flex;
+    border-bottom: 1px solid black;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    margin-top: 2rem;
+}
+.rightmain{
+    margin-left: 2rem;
+}
+.rightmain .search{
+    text-align: right;
+    position: relative;
+}
+.rightmain input{
+    width: 20rem;
+    height: 4rem;
+}
+.rightmain .btn{
+    position: absolute;
+    right: 0px;
+    height: 4rem;
+    border-radius: 0px;
+}
+ span{
+    padding: 1rem;
+}
+.box{
+    width: 17rem;
+    border-right: 1px solid black;
+}
+.description input{
+    width: 14rem;
+    margin-left: 2rem;
+    height: 3rem;
+}
